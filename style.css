@@ -134,6 +134,10 @@ img {
     font-weight: 400;
 }
 
+.introducao a:hover {
+    box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.2);
+}
+
 .introducao img {
     padding-top: 80px;
     padding-bottom: 120px;
@@ -153,14 +157,29 @@ img {
     }
     .introducao p {
         padding-right: 10px;
+        text-align: center;
     }
     .introducao img {
         padding-top: 0px;
         padding-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .title {
         font-size: 42px !important;
+        text-align: center;
     }
+    .introducao a {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.sobre {
+    padding-top: 120px;
 }
 
 .container-sobre {
@@ -197,7 +216,14 @@ img {
     max-width: 200px;
 }
 
+.maquiagem img:hover {
+    box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 900px) {
+    .sobre h3{
+        text-align: center;
+    }
     .portfolio {
         display: flex;
         flex-wrap: wrap;
@@ -206,4 +232,157 @@ img {
         display: flex;
         flex-wrap: wrap;
     }
+    .maquiagem img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.servicos {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicos-container {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.servicos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servico {
+    padding: 20px;
+    padding-left: 80px;
+}
+
+.servico h3 {
+    color: #251D1D;
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+.servico p {
+    color: #535151;
+    font-size: 16px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.subtitle {
+    color: #88B4A5;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.veja-mais {
+    color: #88B4A5;
+    font-weight: 600;
+}
+
+.veja-mais:hover {
+    color: #88B4A5;
+}
+
+.servico h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #88B4A5;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .servico {
+        padding: 10px;
+        padding-left: 30px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .servicos-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .servicos {
+        height: 100%;
+    }
+}
+
+.contato{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contato h2{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.contatos-cont{
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos-cont h3{
+    color: #686060;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    display: flex;
+}
+
+.img-wpp{
+    padding-right: 10px;
+}
+
+@media (max-width: 800px) {
+    .contatos-cont {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contatos-cont h3{
+        padding-bottom: 10px;
+    }
+}
+
+.footer {
+    background-color: #88B4A5;
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
 }
