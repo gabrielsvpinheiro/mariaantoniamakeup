@@ -405,6 +405,11 @@ img {
     margin-top: 80px;
     text-align: center;
     color: white;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #3e504a;
 }
 
 .depoimentos {
