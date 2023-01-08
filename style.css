@@ -476,6 +476,8 @@ img {
     color: #fff;
     font-weight: 600;
     font-size: 28px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 @media (max-width: 900px) {
