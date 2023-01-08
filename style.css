@@ -472,6 +472,12 @@ img {
     margin-bottom: 10px;
 }
 
+.titles {
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+}
+
 @media (max-width: 900px) {
     .depoimento {
         padding: 10px;
