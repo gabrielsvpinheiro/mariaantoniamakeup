@@ -478,8 +478,7 @@ img {
     color: #fff;
     font-weight: 600;
     font-size: 28px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 @media (max-width: 900px) {
@@ -491,6 +490,10 @@ img {
     .depoimento img {
         margin-left: auto;
         margin-right: auto;
+    }
+    .titles {
+        padding-bottom: 15px;
+        padding-top: 15px;
     }
 }
 
